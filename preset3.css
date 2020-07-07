@@ -1,0 +1,175 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.btn.btn-transparent {
+  border: 1px solid #E8C30C;
+}
+.btn.btn-transparent:after {
+  background: #E8C30C !important;
+}
+a {
+  color: #82592d;
+}
+a:hover {
+  color: #6f5f4d;
+}
+body {
+  color: #000;
+}
+body.bg {
+  background: #ffffff;
+}
+
+#sp-action-wrapper {
+ border-color: #719CA5;
+ border-style: solid;
+ border-width: 3px 0 3px 0;
+}
+
+#sp-servise-wrapper{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#719ca5+0,b8d8d8+54,5e97a3+100 */
+background: #719ca5; /* Old browsers */
+background: -moz-linear-gradient(top,  #719ca5 0%, #b8d8d8 54%, #5e97a3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #719ca5 0%,#b8d8d8 54%,#5e97a3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #719ca5 0%,#b8d8d8 54%,#5e97a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#719ca5', endColorstr='#5e97a3',GradientType=0 ); /* IE6-9 */
+}
+
+#sp-slider-wrapper a.nav-left:hover {
+  background: url("slider-arrow-left-1.png") no-repeat 0 0;
+}
+#sp-slider-wrapper a.nav-right:hover {
+  background: url("slider-arrow-right-1.png") no-repeat 0 0;
+}
+#sp-header-wrapper .logo {
+  background-image: url("logo.png");
+}
+#sp-main-menu ul.level-0 > li:hover,
+#sp-main-menu ul.level-0 > li.active {
+  background: rgba(129, 152, 206, 0.9);
+}
+#sp-main-menu ul.level-0 > li:hover {
+  background: rgba(129, 152, 206, 0.9);
+}
+.sp-team ul li .sp-team-info {
+  background: #767A7D;
+  color: #fff;
+}
+.sp-team ul li .sp-team-info .social-icons a i {
+  color: #6dcff6;
+}
+.sp-team ul li.active .sp-team-info {
+  background: #6dcff6;
+}
+.sp-feature .feature-icon {
+  background: #6dcff6;
+}
+.sp-feature .feature-icon:before {
+  border-bottom: 30px solid #6dcff6;
+}
+.sp-feature .feature-icon:after {
+  border-top: 30px solid #6dcff6;
+}
+.sp-feature:hover .sp-feature-content {
+  background: #ffffff;
+}
+.sp-feature:hover .sp-feature-content h3 {
+  color: #000000;
+}
+.sp-feature:hover .sp-feature-content:after {
+  border-bottom-color: #ffffff;
+}
+ul.sp-portfolio-filter li a.btn.active {
+  color: #333333 !important;
+}
+.sp-portfolio .sp-portfolio-items li .overlay-wrapper span {
+  background: rgba(142, 142, 142, 0.7);
+}
+.nssp2 .ns2-page-inner .ns2-row-inner >.ns2-column.col-2:nth-child(1) >div:after {
+  background: #6dcff6;
+}
+.nssp2 .ns2-page-inner .ns2-row-inner >.ns2-column.col-2:nth-child(2) >div:after {
+  background: #6dcff6;
+}
+.sp_quickcontact input:hover,
+.sp_quickcontact input:focus {
+  border: 1px solid #6dcff6;
+}
+.sp_quickcontact textarea#message:hover,
+.sp_quickcontact textarea#message:focus {
+  border: 1px solid #6dcff6;
+}
+.sp_quickcontact #sp_qc_submit.button {
+  border: 1px solid #6dcff6;
+}
+.sp_quickcontact #sp_qc_submit.button:hover {
+  background: #6dcff6;
+}
+#sp-bottom-wrapper {
+  font-size: 16px;
+  background: #000;
+  color: #fff;
+}
+#sp-bottom-wrapper .map-marker {
+  text-transform: uppercase;
+}
+#sp-bottom-wrapper .map-marker i {
+  font-size: 25px;
+  color: #6dcff6;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+#sp-footer-wrapper span.designed-by a {
+  color: #6dcff6;
+}
+.contact-email a i {
+  color: #6dcff6;
+}
+.contact-email a:hover {
+  color: #6dcff6;
+}
+ul.social-icons li a:hover {
+  color: #6dcff6;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border: 1px solid #6dcff6;
+}
